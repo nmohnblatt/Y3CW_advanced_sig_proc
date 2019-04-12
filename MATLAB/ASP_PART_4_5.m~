@@ -1,0 +1,23 @@
+clear
+close all
+
+%% 4.5 SPEECH RECOGNITION
+
+%% Parameters
+
+fs = 44100;
+N = 1000;
+
+%% Recorder
+
+rec_a = audiorecorder;
+
+% Define callbacks to show when
+% recording starts and completes.
+rec_a.StartFcn = 'disp(''Start speaking.'')';
+rec_a.StopFcn = 'disp(''End of recording.'')';
+
+record(rec_a, 2);
+
+% Store data in double-precision array.
+voice_ = getaudiodata(rec_a);
