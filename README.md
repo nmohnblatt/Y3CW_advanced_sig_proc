@@ -5,7 +5,7 @@ The coursework is divided in 5 sections. The code follows the labelling
 requested by the questions (see ASP_Coursework_2016.pdf) and is further
 commented in my answer sheet (see nm2213_report.pdf)
 
-
+Contents:
 1. Random signals and stochastic processes
    1. Statistical estimation
    1. Stochastic processes
